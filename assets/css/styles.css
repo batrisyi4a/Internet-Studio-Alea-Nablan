@@ -1,8 +1,8 @@
-h1, h2, h3 {
+h1, h2, h3 , td {
 	  font-family: "Libre Baskerville", serif;
 }
 
-p {
+p  {
 	  font-family: "Montserrat", sans-serif;
 }
 
@@ -11,7 +11,7 @@ table {
   border-collapse: collapse;
 }
 
-th, td {
+th {
   padding: 8px;
   border: 1px solid #434236;
   font-family: "Libre Baskerville", serif;
