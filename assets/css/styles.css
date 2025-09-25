@@ -1,4 +1,4 @@
-h1, h2, h3 {
+h1, h2, h3, {
 	  font-family: "Libre Baskerville", serif;
 }
 
@@ -14,4 +14,5 @@ table {
 th, td {
   padding: 8px;
   border: 1px solid #ddd;
+  font-family: "Libre Baskerville", serif;
 }
