@@ -11,8 +11,12 @@
 </head>
 <body>
 
-	<title>Assignment 4</title>
-	<p><a href="/asg4/index.html">Assignment 4</a></p>
+	<h1>Assignement 4</h1>
+<!-- add link to hero.html -->
 
+	<h2>Site Map</h2>
+<!-- add link to hero.html -->
+
+	<img src="img/sitemap.png" alt= "image" height="400" width= "400">
 </body>
 </html>
