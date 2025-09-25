@@ -3,20 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>INTERNET STUDIO 1</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-	
-	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
 
-	<h1>Assignement 4</h1>
-<!-- add link to hero.html -->
-
+	<h1>Assignment 4</h1>
 	<h2>Site Map</h2>
-<!-- add link to hero.html -->
 
-	<img src="img/sitemap.png" alt= "image" height="400" width= "400">
+    <img src = "img/sitemap.png" alt= "image" height="200" width= "200">
+
 </body>
 </html>
