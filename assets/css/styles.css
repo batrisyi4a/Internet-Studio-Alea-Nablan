@@ -1,8 +1,8 @@
-h1, h2, h3, {
+h1, h2, h3, th {
 	  font-family: "Libre Baskerville", serif;
 }
 
-p {
+p, td {
 	  font-family: "Montserrat", sans-serif;
 }
 
