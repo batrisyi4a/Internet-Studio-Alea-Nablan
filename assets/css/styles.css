@@ -60,3 +60,8 @@ h1+p {
   margin: 0 auto;
 }
 
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
