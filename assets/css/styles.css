@@ -35,3 +35,12 @@ body {
 	margin: 0;
 }
 
+.note {
+	color: black;
+	border: 2px solid white;
+	background-color: rgb(255, 255, 255);
+	margin-top: 25px;
+	margin-bottom: 35px;
+	padding: 20px;
+}
+
