@@ -24,13 +24,13 @@ th, td {
 	font-style: italic;
 	text-allign: center;
 	margin-bottom: 30px;
-	background-color: rgb(191,91,116);
+	background-color: rgb(199, 150, 162);
 	border-radius: 0 0 10px 10px;
 	padding: 10px;
 }
 
 body {
-	background-color: rgb(0, 242, 174);
+	background-color: rgb(212, 230, 170);
 	padding: 0 20px 20px 20px;
 	margin: 0;
 }
