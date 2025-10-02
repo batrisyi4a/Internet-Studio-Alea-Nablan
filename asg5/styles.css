@@ -2,6 +2,6 @@ h1, h2, h3, th {
 	  font-family: "Libre Baskerville", serif;
 }
 
-p, td, li, label {
+p, td, li, label, span {
 	  font-family: "Montserrat", sans-serif;
 }
