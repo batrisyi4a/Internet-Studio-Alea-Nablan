@@ -6,3 +6,8 @@ p, td, li, section {
 	  font-family: "Montserrat", sans-serif;
 }
 
+body {
+	background-color: rgb(71, 65, 40);
+	padding: 0 20px 20px 20px;
+	margin: 0;
+}
