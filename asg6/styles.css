@@ -20,7 +20,7 @@ h3 {
 }
 
 
-p {
+p, li {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     color: #222222; 
