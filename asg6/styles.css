@@ -3,7 +3,8 @@ body { /* Body Text Style */
     font-family: 'Montserrat', sans-serif; 
 	    padding-top: 115px;
 	background: url(images/gradient.jpg) /* Background Image Color*/
-		repeat-x;
+		repeat-x, repeat-y;
+
     margin: 0;
     padding: 0;
 	max-width: 800px;
