@@ -2,7 +2,7 @@ body { /* Body Text Style */
 	color: #333333;
     font-family: 'Montserrat', sans-serif; 
 	    padding-top: 115px;
-	background: url(images/gradient.jpg) /* Background Image Color*/
+	background: url(images/gradient.jpg);/* Background Image Color*/
 
 		background-repeat: no-repeat; /* Make sure image does not repeat */
         background-position: center; /* Center the image */
