@@ -3,10 +3,9 @@ body {
     font-family: 'Montserrat', sans-serif; 
 	    padding-top: 115px;
 	background: #cde6ff url(images/gradient.jpg) 
-		repeat-x;
+
     margin: 0;
     padding: 0;
-	max-width: 800px;
 	margin: 0 auto;
 
 
@@ -38,7 +37,7 @@ p, li {
     font-size: 10px;
     color: #222222; 
     margin-bottom: 20px;
-    line-height: 1.8;
+
 }
 
 .container {
