@@ -4,10 +4,10 @@ body { /* Body Text Style */
 	    padding-top: 115px;
 	background: url(images/gradient.jpg) /* Background Image Color*/
 
-
-		background-repeat: no-repeat; /* Prevent image repetition */
+		background-repeat: no-repeat; /* Make sure image does not repeat */
         background-position: center; /* Center the image */
-        background-size: cover; /* Scale the image to cover the entire container */
+        background-size: cover; /* Have the image scale the enire background */
+        background-attachment: fixed; /* Keep background fixed during scroll */
     }
 
 h1, h2, h3 { /* Heading Text Style*/
