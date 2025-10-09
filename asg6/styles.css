@@ -3,19 +3,13 @@ body { /* Body Text Style */
     font-family: 'Montserrat', sans-serif; 
 	    padding-top: 115px;
 	background: url(images/gradient.jpg) /* Background Image Color*/
-		repeat-x, repeat-y;
 
 
-		        background-repeat: no-repeat; /* Prevent image repetition */
-        background-position: center center; /* Center the image */
+		background-repeat: no-repeat; /* Prevent image repetition */
+        /*background-position: center; /* Center the image */
         background-size: cover; /* Scale the image to cover the entire container */
-        background-attachment: fixed; /* (Optional) Keep background fixed during scroll */
+        /*background-attachment: fixed; /* (Optional) Keep background fixed during scroll */
     }
-    /*margin: 0;
-    padding: 0;
-	max-width: 800px;
-	margin: 0 auto; */
-
 
 h1, h2, h3 { /* Heading Text Style*/
     font-family: "Libre Baskerville", serif; 
