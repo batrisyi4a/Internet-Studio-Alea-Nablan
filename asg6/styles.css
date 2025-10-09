@@ -1,3 +1,15 @@
+body {
+	color: #333333;
+    font-family: 'Montserrat', sans-serif; 
+	    padding-top: 115px;
+	background: #cde6ff url(images/gradient.jpg) 
+		repeat-x;
+    margin: 0;
+    padding: 0;
+	max-width: 800px;
+	margin: 0 auto;
+
+
 h1, h2, h3 {
     font-family: "Libre Baskerville", serif; 
     color: #c399f7; 
@@ -18,6 +30,7 @@ h3 {
     font-size: 18px;
     margin-top: 20px;
 }
+
 
 
 p, li {
