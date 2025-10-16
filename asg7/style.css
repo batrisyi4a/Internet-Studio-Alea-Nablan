@@ -59,7 +59,6 @@ main {
 
 /* --- Sidebar (Running Mate) --- */
 aside {
-  flex: 1;
   min-width: 250px;
   background-color: rgba(230, 220, 255, 0.8);
   padding: 15px;
@@ -103,15 +102,17 @@ a {
 }
 
 .wireframe-img, {
-  width: 100%; /* or a specific pixel width */
-  height: auto;
-  display: block; /* Prevents extra space below the image */
+  width: 250px;
+  margin-left: 15px;
+  border-radius: 10px;
+  border: 2px solid #7a5af8;
 }
 
 .wireframe-img2, {
-  width: 100%; /* or a specific pixel width */
-  height: auto;
-  display: block; /* Prevents extra space below the image */
+  width: 250px;
+  margin-left: 15px;
+  border-radius: 10px;
+  border: 2px solid #7a5af8;
 }
 
 
