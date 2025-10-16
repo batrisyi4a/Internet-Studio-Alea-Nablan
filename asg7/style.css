@@ -103,11 +103,13 @@ a {
 }
 
 .wireframe-img, {
-        width: 150px;  
+        width: 70px;  
+        height: 50px;
 }
 
 .wireframe-img2, {
-        width: 150px;  
+        width: 70px;  
+        height: 50px;
 }
 
 
