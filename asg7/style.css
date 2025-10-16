@@ -103,13 +103,15 @@ a {
 }
 
 .wireframe-img, {
-        width: 70px;  
-        height: 50px;
+  width: 100%; /* or a specific pixel width */
+  height: auto;
+  display: block; /* Prevents extra space below the image */
 }
 
 .wireframe-img2, {
-        width: 70px;  
-        height: 50px;
+  width: 100%; /* or a specific pixel width */
+  height: auto;
+  display: block; /* Prevents extra space below the image */
 }
 
 
