@@ -90,15 +90,13 @@ p {
 }
 
 .wireframe-img, {
-  width: 100%; 
-  height: auto;
-  display: block; 
+  width: 200px; 
+  height: auto; 
 }
 
 .wireframe-img2, {
-  width: 100%; 
-  height: auto;
-  display: block; 
+  width: 200px; 
+  height: auto; 
 }
 
 
