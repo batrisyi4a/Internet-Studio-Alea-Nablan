@@ -14,33 +14,27 @@ body {
 header {
   text-align: center;
   padding: 70px 20px 30px;
-  background-color: rgba(255, 255, 255, 0.8);
+
 }
 
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: #7a5af8; /* Lavender purple */
+  color: #7a5af8; 
   margin-bottom: 10px;
 }
 
-.tagline {
-  font-style: italic;
-  font-size: 16px;
-  color: #444;
-}
 
-/* --- Main Layout --- */
+
 main {
   margin: 40px auto;
   max-width: 1000px;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 12px;
-  overflow: hidden; /* clears floats */
+  overflow: hidden; 
 }
 
-/* --- Candidate Section --- */
 .candidate {
   float: left;
   width: 65%;
@@ -54,8 +48,6 @@ main {
   border-radius: 10px;
   border: 2px solid #7a5af8;
 }
-
-/* --- Sidebar (Running Mate) --- */
 
 
 aside {
@@ -79,7 +71,7 @@ aside h2 {
   margin-bottom: 10px;
 }
 
-/* --- Campaign Platform --- */
+
 .platform {
   margin-top: 40px;
   width: 100%;
@@ -91,15 +83,10 @@ aside h2 {
   font-size: 22px;
 }
 
-/* --- Text --- */
 p {
   font-size: 15px;
   line-height: 1.8;
   color: #333;
-}
-
-a {
-  color: #7a5af8;
 }
 
 .wireframe-img, {
