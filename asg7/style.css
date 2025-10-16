@@ -32,20 +32,18 @@ h1 {
 
 /* --- Main Layout --- */
 main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   margin: 40px auto;
   max-width: 1000px;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 12px;
+  overflow: hidden; /* clears floats */
 }
 
 /* --- Candidate Section --- */
 .candidate {
-  flex: 2;
-  min-width: 60%;
+  float: left;
+  width: 65%;
   margin-right: 30px;
 }
 
@@ -58,12 +56,14 @@ main {
 }
 
 /* --- Sidebar (Running Mate) --- */
+
+
 aside {
-  flex: 1;
-  min-width: 250px;
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
   background-color: rgba(230, 220, 255, 0.8);
-  padding: 15px;
-  border-radius: 10px;
 }
 
 aside h2 {
@@ -103,15 +103,15 @@ a {
 }
 
 .wireframe-img, {
-  width: 100%; /* or a specific pixel width */
+  width: 100%; 
   height: auto;
-  display: block; /* Prevents extra space below the image */
+  display: block; 
 }
 
 .wireframe-img2, {
-  width: 100%; /* or a specific pixel width */
+  width: 100%; 
   height: auto;
-  display: block; /* Prevents extra space below the image */
+  display: block; 
 }
 
 
