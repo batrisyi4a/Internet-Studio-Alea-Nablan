@@ -100,20 +100,6 @@ p {
 
 a {
   color: #7a5af8;
-  text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
 
-/* --- Footer --- */
-footer {
-  text-align: center;
-  font-size: 13px;
-  padding: 20px;
-  color: #222;
-  background-color: rgba(255, 255, 255, 0.8);
-  margin-top: 40px;
-  border-top: 1px solid #ccc;
-}
