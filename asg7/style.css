@@ -1,4 +1,4 @@
-/* --- Body --- */
+
 body {
   background: url('images/gradient.jpg');
   background-size: cover;
@@ -10,7 +10,7 @@ body {
   padding: 0;
 }
 
-/* --- Header --- */
+
 header {
   text-align: center;
   padding: 70px 20px 30px;
@@ -23,7 +23,6 @@ h1 {
   color: #7a5af8; 
   margin-bottom: 10px;
 }
-
 
 
 main {
