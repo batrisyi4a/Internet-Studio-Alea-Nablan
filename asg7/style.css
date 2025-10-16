@@ -32,6 +32,9 @@ h1 {
 
 /* --- Main Layout --- */
 main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: 40px auto;
   max-width: 1000px;
   padding: 20px;
@@ -39,8 +42,9 @@ main {
   border-radius: 12px;
 }
 
-
+/* --- Candidate Section --- */
 .candidate {
+  flex: 2;
   min-width: 60%;
   margin-right: 30px;
 }
@@ -53,7 +57,9 @@ main {
   border: 2px solid #7a5af8;
 }
 
+/* --- Sidebar (Running Mate) --- */
 aside {
+  flex: 1;
   min-width: 250px;
   background-color: rgba(230, 220, 255, 0.8);
   padding: 15px;
@@ -101,7 +107,7 @@ a:hover {
   text-decoration: underline;
 }
 
-
+/* --- Footer --- */
 footer {
   text-align: center;
   font-size: 13px;
