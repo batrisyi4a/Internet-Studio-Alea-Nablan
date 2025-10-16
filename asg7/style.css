@@ -59,7 +59,7 @@ main {
 
 /* --- Sidebar (Running Mate) --- */
 aside {
-
+  flex: 1;
   min-width: 250px;
   background-color: rgba(230, 220, 255, 0.8);
   padding: 15px;
@@ -103,15 +103,15 @@ a {
 }
 
 .wireframe-img, {
-  width: 50%; 
+  width: 100%; /* or a specific pixel width */
   height: auto;
-  display: block; 
+  display: block; /* Prevents extra space below the image */
 }
 
 .wireframe-img2, {
-  width: 50%; 
+  width: 100%; /* or a specific pixel width */
   height: auto;
-  display: block; 
+  display: block; /* Prevents extra space below the image */
 }
 
 
