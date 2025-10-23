@@ -1,12 +1,11 @@
-/* akaya-kanadaka-regular - latin */
+/* aleo-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Akaya Kanadaka';
+  font-family: 'Aleo';
   font-style: normal;
   font-weight: 400;
-  src: url('../asg8/fonts/akaya-kanadaka-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../asg8/fonts/aleo-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
 /* abeezee-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -22,7 +21,7 @@ html {
 }
 
 body {
-  font-family: 'Akaya Kanadaka', sans-serif;
+  font-family: 'Aleo', sans-serif;
   font-weight: 400;
   line-height: 1.65;
   background-color: #F2F2F2; /* Soft background */
@@ -54,7 +53,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Ayaka Kanadaka', sans-serif;
+  font-family: 'Aleo', sans-serif;
   font-weight: 700;
   line-height: 1.15;
   margin-top: 0;
@@ -76,7 +75,7 @@ h2,
   font-size: 1.6em;
   text-align: center;
   margin-bottom: 20px;
-  color: #FF4D6D; /* Secondary accent */
+  color: #553a3f; /* Secondary accent */
 }
 
 /* Fluid Typography (optional for responsiveness) */
