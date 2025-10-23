@@ -31,6 +31,15 @@ body {
   padding: 0;
 }
 
+main {
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  overflow: hidden; 
+}
+
 p {
   font-size: 1em;
   max-width: 900px;
@@ -77,3 +86,13 @@ h2,
   p { font-size: 0.95em; }
 }
 
+
+
+body {
+  background: url('images/gradient.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
