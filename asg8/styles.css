@@ -25,7 +25,7 @@ body {
   font-weight: 400;
   line-height: 1.65;
   background-color: #F2F2F2; /* Soft background */
-  color: #333333;
+  color: #348bf6;
   margin: 0;
   padding: 0;
 }
@@ -44,6 +44,7 @@ p {
   max-width: 900px;
   margin: 0 auto 20px auto;
   padding: 0 20px;
+  color: #rgb(71, 42, 133) 
   text-align: justify;
 }
 
@@ -66,7 +67,7 @@ h1,
   font-size: 1.8em;
   text-align: center;
   margin-bottom: 30px;
-  color: #4D00FF; /* Accent color */
+  color: #312154; /* Accent color */
 }
 
 h2,
