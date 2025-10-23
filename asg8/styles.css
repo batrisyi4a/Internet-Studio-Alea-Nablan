@@ -7,3 +7,64 @@
   src: url('fonts/open-sans-v44-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+
+/* Font & Base Styles */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.65;
+  background-color: #F2F2F2; /* Soft background */
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1em;
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-top: 0;
+}
+
+h1,
+.text-size-h1 {
+  font-family: 'Orelega One', sans-serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #4D00FF; /* Accent color */
+}
+
+h2,
+.text-size-h2 {
+  font-size: 1.6em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #FF4D6D; /* Secondary accent */
+}
+
+/* Fluid Typography (optional for responsiveness) */
+@media (max-width: 768px) {
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.4em; }
+  p { font-size: 0.95em; }
+}
+
