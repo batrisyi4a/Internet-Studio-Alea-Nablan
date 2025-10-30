@@ -3,21 +3,21 @@
 ---------------------------------- */
 
 .nav-bar {
-  background-color: #312154; 
+  background-color: #312154; /* purple accent */
   padding: 0.5rem 0;
 }
 
 .nav-bar ul {
-  display: flex;           
-  justify-content: center; 
-  flex-wrap: wrap;         
-  list-style: none;
+  display: flex;             /* enables flexbox layout */
+  justify-content: center;   /* centers horizontally */
+  flex-wrap: wrap;           /* allows wrapping */
+  list-style: none;          /* removes bullet points */
   margin: 0;
   padding: 0;
 }
 
 .nav-bar li {
-  margin: 0 1rem; 
+  margin: 0 1rem;
 }
 
 .nav-bar a {
@@ -33,13 +33,12 @@
 }
 
 .nav-bar a:hover {
-  background-color: #553a3f; 
+  background-color: #553a3f;
 }
 
-/* Responsive adjustment */
 @media (max-width: 768px) {
   .nav-bar ul {
-    flex-direction: column;  
+    flex-direction: column;  /* stack vertically on small screens */
     align-items: center;
   }
 
