@@ -1,9 +1,13 @@
+.nav-bar {
+  background-color: #312154; /* your accent purple */
+  padding: 0.5rem 0;
+  width: 100%;               /* spans full page */
+}
 .nav-bar ul {
   display: flex;             
   justify-content: center;   
   align-items: center;
-  flex-wrap: wrap;           
-  list-style-type: none;     
+  flex-wrap: wrap;               
   margin: 0;
   padding: 0;
 }
