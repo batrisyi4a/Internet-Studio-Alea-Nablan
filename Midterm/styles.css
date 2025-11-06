@@ -26,7 +26,7 @@ body {
 
 header {
   background-color: #f4a261;
-  padding: 1rem 0;
+  padding: 1em 0;
 }
 
 nav ul {
@@ -39,7 +39,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 1rem;
+  margin: 0 1em;
 }
 
 nav a {
@@ -66,30 +66,30 @@ nav a:hover {
 
 .hero h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 3rem;
+  font-size: 3em;
   text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
 }
 
 .container {
   width: 85%;
-  margin: 2rem auto;
+  margin: 2em auto;
   max-width: 1000px;
 }
 
 h2 {
   font-family: 'Poppins', sans-serif;
   color: #264653;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5em;
 }
 
 p {
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
 }
 
 .cta-buttons {
-  margin-top: 2rem;
+  margin-top: 2em;
   display: flex;
-  gap: 1rem;
+  gap: 1em;
   justify-content: center;
 }
 
@@ -98,9 +98,8 @@ button {
   color: white;
   border: none;
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: 1em;
   border-radius: 5px;
-  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
@@ -112,10 +111,10 @@ footer {
   background-color: #264653;
   color: white;
   text-align: center;
-  padding: 1rem;
-  margin-top: 3rem;
+  padding: 1em;
+  margin-top: 3em;
 }
 
 footer p {
-  margin: 0.3rem 0;
+  margin: 0.3em 0;
 }
