@@ -118,3 +118,27 @@ footer {
 footer p {
   margin: 0.3em 0;
 }
+
+@keyframes logo {
+	from {
+		 transform: rotate(0) scale(.5);
+		 left: 120%;
+
+
+	}
+
+
+	50% {
+		transform: rotate(-720deg) scale(.5);
+	}
+	
+	to {
+		transform: rotate(-720deg) scale(1);
+		
+
+	}
+}
+
+.logo, h1 {
+	animation: logo 1s;
+}
