@@ -41,7 +41,7 @@ h1, h2 {
 h1 {
   font-size: 2.5em;
   text-align: center;
-  color: #ff6f61; /* accent color */
+  color: #ff6f61;
 }
 
 h2 {
@@ -70,19 +70,12 @@ header {
 ================================================== */
 .gallery {
   display: grid;
-
-  /* exactly 2 columns on desktop */
-  grid-template-columns: 250px 250px;
-
+  grid-template-columns: 250px 250px;  /* 2 columns */
   gap: 20px;
   padding: 2em;
-
-  /* center the grid and items */
-  justify-content: center;
-  justify-items: center;
-
-  /* automatically size rows based on content */
-  grid-auto-rows: auto;
+  justify-content: center; /* center the grid */
+  justify-items: center;   /* center each card */
+  grid-auto-rows: auto;    /* auto height for new rows */
 }
 
 /* Responsive: single column on small screens */
