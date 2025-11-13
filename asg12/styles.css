@@ -16,6 +16,17 @@
   src: url('fonts/aleo-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+main {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: repeat(3, 450px); /* first 3 rows */
+  gap: 20px;
+  justify-items: center;
+  align-items: stretch;
+
+  /* Ensure all new rows have the same height */
+  grid-auto-rows: 450px; 
+}
 body {
   font-family: 'Aleo'; 
   background: url('images/background.jpg'); 
