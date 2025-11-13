@@ -1,0 +1,89 @@
+/* ==================================================
+   Global Styles
+================================================== */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url('https://www.transparenttextures.com/patterns/geometry2.png'); /* example BG */
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  margin: 0.5em 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  color: #ff6f61; /* your accent color */
+}
+
+h2 {
+  font-size: 1.25em;
+  margin-top: 0.5em;
+  color: #333;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6em;
+  padding: 0 10px;
+}
+
+/* ==================================================
+   Header
+================================================== */
+header {
+  text-align: center;
+  padding: 2em 1em;
+  background-color: rgba(255, 111, 97, 0.1); /* subtle background color */
+}
+
+/* ==================================================
+   Gallery Grid
+================================================== */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 2em;
+  justify-items: center;
+}
+
+/* ==================================================
+   Individual Movie Card
+================================================== */
+.movie-card {
+  max-width: 300px;
+  background-color: rgba(255,255,255,0.9);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.movie-card p {
+  padding: 0.5em 1em 1em 1em;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* ==================================================
+   Footer
+================================================== */
+footer {
+  text-align: center;
+  padding: 1.5em;
+  background-color: #ff6f61;
+  color: white;
+}
