@@ -55,9 +55,10 @@ p {
 header {
   text-align: center;
   padding: 2em 1em;
-  background-color: white 
-  color: white; 
-  border-radius: 8px; 
+  background-color: white;
+  color: #ff6f61;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .gallery {
