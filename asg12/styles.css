@@ -1,9 +1,24 @@
-/* ==================================================
-   Global Styles
-================================================== */
+/* instrument-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/instrument-sans-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* aleo-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/aleo-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
-  background: url('https://www.transparenttextures.com/patterns/geometry2.png'); /* example BG */
+  font-family: 'Aleo'; 
+  background: url('images/background.jpg'); 
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -12,7 +27,7 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Instrument Sans';
   margin: 0.5em 0;
 }
 
@@ -34,18 +49,13 @@ p {
   padding: 0 10px;
 }
 
-/* ==================================================
-   Header
-================================================== */
 header {
   text-align: center;
   padding: 2em 1em;
-  background-color: rgba(255, 111, 97, 0.1); /* subtle background color */
+  background-color: rgba(255, 111, 97, 0.1); 
 }
 
-/* ==================================================
-   Gallery Grid
-================================================== */
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
