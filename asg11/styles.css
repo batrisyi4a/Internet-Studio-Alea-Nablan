@@ -71,7 +71,7 @@ header {
 }
 
 
-.movie-card {
+.dodge-ball {
   max-width: 300px;
   background-color: rgba(255,255,255,0.9);
   border-radius: 8px;
@@ -80,13 +80,13 @@ header {
   text-align: center;
 }
 
-.movie-card img {
+.dodge-ball img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-.movie-card p {
+.dodge-ball p {
   padding: 0.5em 1em 1em 1em;
   font-size: 0.9em;
   color: #555;
