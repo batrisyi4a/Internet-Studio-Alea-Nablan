@@ -62,7 +62,7 @@ header {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(4, 250px); 
+  grid-template-columns: repeat(5, 250px); 
   gap: 20px;
   padding: 2em;
   justify-content: center; 
