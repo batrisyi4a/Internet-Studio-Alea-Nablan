@@ -1,5 +1,5 @@
 
-/* instrument-sans-regular - latin */
+/* font instrument sans */
 @font-face {
   font-display: swap;
   font-family: 'Instrument Sans';
@@ -8,7 +8,7 @@
   src: url('fonts/instrument-sans-v4-latin-regular.woff2') format('woff2');
 }
 
-/* aleo-regular - latin */
+/* font aleo */
 @font-face {
   font-display: swap;
   font-family: 'Aleo';
