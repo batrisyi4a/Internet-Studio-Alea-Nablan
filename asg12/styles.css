@@ -1,4 +1,6 @@
-/* Fonts */
+
+
+/* instrument-sans-regular - latin */
 @font-face {
   font-display: swap;
   font-family: 'Instrument Sans';
@@ -7,6 +9,7 @@
   src: url('fonts/instrument-sans-v4-latin-regular.woff2') format('woff2');
 }
 
+/* aleo-regular - latin */
 @font-face {
   font-display: swap;
   font-family: 'Aleo';
@@ -15,10 +18,9 @@
   src: url('fonts/aleo-v16-latin-regular.woff2') format('woff2');
 }
 
-/* Global styles */
 body {
   font-family: 'Aleo', serif;
-  background: url('images/trendy-background-ideas-cover.webp') no-repeat center center; 
+  background: url('images/background.jpg'); 
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -32,70 +34,69 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 2em; /* slightly smaller */
+  font-size: 2.5em;
   text-align: center;
   color: #ff6f61;
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.25em;
   margin-top: 0.5em;
   color: #333;
 }
 
 p {
   font-size: 1em;
-  line-height: 1.5em; /* tightened */
-  padding: 0 8px; /* less horizontal padding */
+  line-height: 1.6em;
+  padding: 0 10px;
 }
 
-/* Header */
+
 header {
   text-align: center;
-  padding: 1.5em 1em; /* reduced vertical padding */
+  padding: 2em 1em;
   background-color: white;
   color: #ff6f61;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* Gallery */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* responsive columns */
-  gap: 15px; /* reduced gap */
-  padding: 1.5em; /* reduced padding */
+  grid-template-columns: repeat(4, 250px); 
+  gap: 20px;
+  padding: 2em;
+  justify-content: center; 
   justify-items: center;   
   grid-auto-rows: auto;   
 }
 
-/* Individual box/cards */
-.dodge-ball {
-  max-width: 250px; /* smaller max-width */
+
+.movie-card {
+  max-width: 300px;
   background-color: rgba(255,255,255,0.9);
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.15); /* softer shadow */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
   text-align: center;
-  margin: 0 auto;
 }
 
-.dodge-ball img {
+.movie-card img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-.dodge-ball p {
-  padding: 0.5em 0.8em 0.8em 0.8em; /* slightly tighter padding */
+.movie-card p {
+  padding: 0.5em 1em 1em 1em;
   font-size: 0.9em;
   color: #555;
 }
 
-/* Footer */
+
 footer {
   text-align: center;
-  padding: 1.2em;
+  padding: 1.5em;
   background-color: #ff6f61;
   color: white;
 }
