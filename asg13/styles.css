@@ -16,6 +16,7 @@
   src: url('fonts/instrument-sans-v4-latin-regular.woff2') format('woff2');
 }
 
+/*text style for body*/
 body {
     margin: 0;
     padding: 0;
@@ -23,15 +24,19 @@ body {
     background: url('images/background.jpg');
 }
 
+/* aleo font for all headings */
 h1, h2, h3 {
     font-family: "Aleo", serif;
 }
 
+/* styling header at the top of page*/
 header {
     background: #A3C9F9;
     padding: 2rem;
     text-align: center;
 }
+
+/* creates container for job cards*/
 
 .intro, .jobs {
     display: flex;
@@ -48,6 +53,8 @@ header {
     justify-content: center;
 }
 
+
+/*styling job card*/
 .job-card {
     background: white;
     border-radius: 10px;
@@ -60,6 +67,7 @@ header {
     text-align: center;
 }
 
+/*image for job card*/
 .job-card img {
     width: 120px;
     margin-bottom: 1rem;
