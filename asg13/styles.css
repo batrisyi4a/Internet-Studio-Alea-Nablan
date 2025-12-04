@@ -1,28 +1,26 @@
 /* aleo-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Aleo';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/aleo-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('fonts/aleo-v16-latin-regular.woff2') format('woff2');
 }
 
 /* instrument-sans-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Instrument Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/instrument-sans-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('fonts/instrument-sans-v4-latin-regular.woff2') format('woff2');
 }
-
-
 
 body {
     margin: 0;
     padding: 0;
     font-family: "Instrument Sans", sans-serif;
-    background: url('images/background.jpg'); 
+    background: url('images/background.jpg');
 }
 
 h1, h2, h3 {
@@ -30,16 +28,17 @@ h1, h2, h3 {
 }
 
 header {
-  text-align: center;
-  padding: 2em 1em;
-  background-color: white;
-  color: #ff6f61;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background: #A3C9F9;
+    padding: 2rem;
+    text-align: center;
 }
 
 .intro, .jobs {
-    padding: 2rem 3rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .jobs {
@@ -53,8 +52,10 @@ header {
     background: white;
     border-radius: 10px;
     padding: 1.5rem;
-    width: 30%;
+    width: calc(33% - 1.5rem);
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
 }
 
 .job-card img {
@@ -66,4 +67,12 @@ header {
     display: inline-block;
     margin: 0.5rem 0;
     font-weight: bold;
+}
+
+/* Text outline background */
+.job-card p {
+    background: rgba(255, 255, 255, 0.65);
+    padding: 0.8rem;
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
 }
