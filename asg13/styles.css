@@ -35,8 +35,8 @@ header {
 
 .intro, .jobs {
     display: flex;
-    gap: 0.3rem; /* smaller gap between cards */
-    flex-wrap: nowrap;
+    gap: 0.3rem; 
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -71,7 +71,6 @@ header {
     font-weight: bold;
 }
 
-/* Text outline background */
 .job-card p {
     background: rgba(255, 255, 255, 0.65);
     padding: 0.8rem;
