@@ -43,7 +43,7 @@ header {
 
 .jobs {
     display: flex;
-    gap: 0.2rem;
+    gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
 }
