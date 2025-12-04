@@ -1,163 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Dream Jobs</title>
+/* aleo-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/aleo-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+/* instrument-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/instrument-sans-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
-    <style>
-        /* Google Fonts:
-           - Headers: Playfair Display
-           - Body Text: Inter
-        */
 
-        /* Color Palette
-           #1A1A1A (dark text)
-           #F5F5F5 (light background)
-           #A3C9F9 (accent)
-           #D8EAFB (soft background)
-        */
 
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: "Inter", sans-serif;
-            background-color: #F5F5F5;
-        }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Instrument Sans", sans-serif;
+    background: url('images/background.jpg'); 
+}
 
-        h1, h2, h3 {
-            font-family: "Playfair Display", serif;
-        }
+h1, h2, h3 {
+    font-family: "Aleo", serif;
+}
 
-        header {
-            background: #A3C9F9;
-            padding: 2rem;
-            text-align: center;
-        }
+header {
+  text-align: center;
+  padding: 2em 1em;
+  background-color: white;
+  color: #ff6f61;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
 
-        .intro, .jobs {
-            padding: 2rem 3rem;
-        }
+.intro, .jobs {
+    padding: 2rem 3rem;
+}
 
-        .jobs {
-            display: flex;
-            gap: 2rem;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
+.jobs {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-        .job-card {
-            background: white;
-            border-radius: 10px;
-            padding: 1.5rem;
-            width: 30%;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
+.job-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 30%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
 
-        .job-card img {
-            width: 120px;
-            margin-bottom: 1rem;
-        }
+.job-card img {
+    width: 120px;
+    margin-bottom: 1rem;
+}
 
-        /* Text outline background */
-        .job-card p {
-            background: rgba(255, 255, 255, 0.65);
-            padding: 0.8rem;
-            border-radius: 8px;
-            backdrop-filter: blur(4px);
-        }
-
-        .job-card a {
+.job-card a {
     display: inline-block;
     margin: 0.5rem 0;
     font-weight: bold;
 }
-
-/* Text outline background */
-.job-card p {
-    background: rgba(255, 255, 255, 0.65);
-    padding: 0.8rem;
-    border-radius: 8px;
-    backdrop-filter: blur(4px);
-}
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>My Dream Job(s)</h1>
-    </header>
-
-    <section class="intro">
-        <h2>Introduction</h2>
-        <p>
-            My ideal job would be a position where I can combine design, creativity,
-            and technology to create meaningful user experiences. With my background
-            in UX/UI design, photography, and front-end learning, I enjoy designing
-            interfaces that feel intuitive and visually compelling. As I continue
-            developing my skills in Figma, HTML/CSS, and user research, I hope to
-            work in roles that challenge me creatively and technically. Ultimately,
-            my dream role is one that lets me collaborate, grow, and contribute to
-            products that help people.
-        </p>
-    </section>
-
-    <section class="jobs">
-        <h2>Job Listings</h2>
-
-        <div class="job-card">
-            <img src="images/figma.png" alt="Figma Logo">
-            <h3>Figma – UX Design Intern</h3>
-            <a href="#" target="_blank">View Listing</a>
-            <p>
-                A UX Design internship at Figma would be an incredible opportunity because I truly admire
-                how Figma brings people together through collaborative design. I’ve used Figma extensively
-                for my projects, and being able to contribute to a tool I use every day would be extremely
-                motivating. Figma’s culture values creativity, experimentation, and learning, which aligns
-                perfectly with how I like to approach design challenges. I love the idea of working in a
-                fast-paced environment where ideas are tested, iterated, and improved rapidly. This
-                internship would give me the chance to learn from talented designers while growing my own
-                interaction and visual design skills.
-            </p>
-        </div>
-
-        <div class="job-card">
-            <img src="images/pinterest.png" alt="Pinterest Logo">
-            <h3>Pinterest – Product Design Intern</h3>
-            <a href="#" target="_blank">View Listing</a>
-            <p>
-                Pinterest’s mission to help people discover and create inspires me because I love platforms
-                that blend creativity and technology. As someone who enjoys visual storytelling and
-                photography, Pinterest feels like a design environment where I would naturally fit in. This
-                role would allow me to work on real features that impact millions of users who rely on
-                Pinterest for inspiration. Pinterest is also known for its thoughtful and inclusive design
-                culture, something I value deeply. An internship here would help me grow as a designer and
-                push me to think more intentionally about user motivation and engagement.
-            </p>
-        </div>
-
-        <div class="job-card">
-            <img src="images/adobe.png" alt="Adobe Logo">
-            <h3>Adobe – UX/UI Design Intern</h3>
-            <a href="#" target="_blank">View Listing</a>
-            <p>
-                Adobe has shaped the creative industry for decades, and being part of a company that builds
-                tools for designers would be incredibly meaningful to me. As someone who uses Adobe
-                applications like Photoshop and Illustrator, I’d love the chance to help improve the user
-                experience for other creatives. Adobe emphasizes research-driven design, innovation, and
-                accessibility—all areas I want to grow in. I also admire Adobe’s commitment to supporting
-                young designers and fostering an environment where experimentation is encouraged. This
-                internship would allow me to contribute to tools that help millions of people bring their
-                ideas to life.
-            </p>
-        </div>
-
-    </section>
-
-</body>
-</html>
