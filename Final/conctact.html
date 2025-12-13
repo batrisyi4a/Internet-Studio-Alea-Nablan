@@ -2,52 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Contact Us | Kpop Cash </title>
-  <link rel="stylesheet" href="styles.css">
+  <title>K-Pop Cash | Contact</title>
+  <link rel="stylesheet" href="contact.css">
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav>
-    <ul>
+  <nav class="navbar">
+    <h2 class="logo">K-Pop Cash</h2>
+    <ul class="nav-links">
       <li><a href="home.html">Home</a></li>
       <li><a href="calendar.html">Calendar</a></li>
-      <li><a href="notification.html">Notification</a></li>
-      <li><a href="conctact.html">Contact</a></li>
+      <li><a href="notifications.html">Notifications</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 
-  <!-- Header -->
-  <header>
+  <main>
     <h1>Contact Us</h1>
-  </header>
+    <p class="subtitle">Have questions or suggestions? We’d love to hear from you!</p>
 
-  <!-- Contact Form Section -->
-  <section class="contact-section">
-    <h2>We’d Love to Hear From You!</h2>
-    <p>Fill out the form to learn more!</p>
+    <form class="contact-form">
+      <label>Name</label>
+      <input type="text" placeholder="Your name">
 
-    <form>
-      <label for="name">Full Name</label>
-      <input type="text" id="name" name="name">
+      <label>Email</label>
+      <input type="email" placeholder="Your email">
 
-      <label for="phone">Phone Number</label>
-      <input type="tel" id="phone" name="phone">
+      <label>Message</label>
+      <textarea placeholder="Your message"></textarea>
 
-      <label for="email">Email Address</label>
-      <input type="email" id="email" name="email">
-
-      <label for="comments">Comments</label>
-      <textarea id="comments" name="comments" rows="5"></textarea>
-
-      <button type="submit">Submit</button>
+      <button type="submit">Send Message</button>
     </form>
-  </section>
-
-
-  <footer>
-    <p>© Kpop Cash | kpopcash@gmail.com | 123-456-789 </p>
-  </footer>
+  </main>
 
 </body>
 </html>

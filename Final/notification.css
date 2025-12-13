@@ -1,8 +1,35 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9fafb;
+  background-color: #fafafa;
   margin: 0;
-  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background-color: #111827;
+}
+
+.logo {
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Page */
+main {
+  padding: 40px;
 }
 
 h1 {
@@ -11,25 +38,24 @@ h1 {
 }
 
 .notifications {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
 .notification {
-  background-color: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
+  background-color: white;
+  border-radius: 10px;
   padding: 15px;
   margin-bottom: 15px;
+  border-left: 6px solid #ddd;
 }
 
 .notification h3 {
   margin: 0 0 5px;
-  font-size: 1rem;
 }
 
 .notification p {
-  margin: 0 0 10px;
+  margin: 0 0 8px;
   color: #4b5563;
   font-size: 0.9rem;
 }
@@ -39,8 +65,8 @@ h1 {
   color: #9ca3af;
 }
 
-/* Unread notifications */
-.unread {
-  border-left: 5px solid #3b82f6;
-  background-color: #eff6ff;
-}
+/* Types */
+.comeback { border-color: #8b5cf6; }
+.concert { border-color: #ec4899; }
+.event { border-color: #3b82f6; }
+.merch { border-color: #22c55e; }
