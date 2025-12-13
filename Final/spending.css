@@ -24,17 +24,6 @@ body {
   background: url('images/grid.jpg');
 }
 
-
-/* ===============================
-   Global Styles
-   =============================== */
-
-
-
-/* ===============================
-   Navigation
-   =============================== */
-
 /* Navigation */
 .navbar {
   display: flex;
@@ -65,9 +54,6 @@ body {
   text-decoration: underline;
 }
 
-/* ===============================
-   Page Layout
-   =============================== */
 
 main {
   padding: 40px;
@@ -78,13 +64,8 @@ h1 {
   margin-bottom: 30px;
 }
 
-/* ===============================
-   Summary Section
-   =============================== */
-
 .summary {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   justify-items: center;
   margin-bottom: 40px;
@@ -96,7 +77,7 @@ h1 {
   padding: 20px;
   text-align: center;
   box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-  border-left: 5px solid #6a8b91; /* accent color for consistency */
+  border-left: 5px solid #6a8b91;
 }
 
 .amount {
@@ -106,10 +87,8 @@ h1 {
   color: #6a8b91;
 }
 
-/* ===============================
-   Category Breakdown
-   =============================== */
 
+/* category section */
 .categories {
   max-width: 600px;
   margin: 0 auto 40px auto;
@@ -126,14 +105,8 @@ h1 {
   border-bottom: 1px solid #eee;
 }
 
-.category:last-child {
-  border-bottom: none;
-}
 
-/* ===============================
-   Recent Spending
-   =============================== */
-
+/* recent spending section */
 .recent {
   max-width: 600px;
   margin: 0 auto;
@@ -148,10 +121,6 @@ h1 {
   justify-content: space-between;
   padding: 12px 0;
   border-bottom: 1px solid #eee;
-}
-
-.transaction:last-child {
-  border-bottom: none;
 }
 
 
