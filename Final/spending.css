@@ -1,30 +1,20 @@
-/* ===============================
-   Fonts
-   =============================== */
-
-/* Open Sans - body text */
+/* open-sans-regular - latin */
 @font-face {
-  font-display: swap;
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/open-sans-v44-latin-regular.woff2') format('woff2');
+  src: url('fonts/open-sans-v44-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/* Poppins - navigation text */
+/* poppins-regular - latin */
 @font-face {
-  font-display: swap;
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/poppins-v24-latin-regular.woff2') format('woff2');
+  src: url('fonts/poppins-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
-
-
-/* ===============================
-   Global Styles
-   =============================== */
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -34,10 +24,18 @@ body {
   background: url('images/grid.jpg');
 }
 
+
+/* ===============================
+   Global Styles
+   =============================== */
+
+
+
 /* ===============================
    Navigation
    =============================== */
 
+/* Navigation */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -57,10 +55,14 @@ body {
 }
 
 .nav-links a {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif; 
   color: #000000;
   text-decoration: none;
   font-size: 0.9rem;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
 }
 
 /* ===============================
@@ -152,14 +154,12 @@ h1 {
   border-bottom: none;
 }
 
-/* ===============================
-   Footer
-   =============================== */
 
+/* footer */
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #6a8b91;
-  color: white;
-  margin-top: 40px;
+  background-color: #111827;
+  color: #9ca3af;
+  font-size: 0.8rem;
 }
