@@ -63,6 +63,7 @@ h1 {
 /* Calendar Grid */
 .calendar {
   display: grid;
+  border-radius: 10px;
   grid-template-columns: repeat(7, 1fr);
   max-width: 900px;
   margin: 0 auto;
@@ -92,6 +93,7 @@ h1 {
 .date {
   font-weight: bold;
   font-size: 0.85rem;
+  border-radius: 10px;
 }
 
 /* Events */
