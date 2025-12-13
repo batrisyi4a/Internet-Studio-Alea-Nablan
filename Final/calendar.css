@@ -76,13 +76,25 @@ h1 {
   gap: 8px;
 }
 
-/* sunday-monday */
+/* calendar */
 .day-name {
   text-align: center;
   border-radius: 10px;
   font-weight: bold;
   padding: 10px;
   background-color: #7d8699;
+}
+
+.day, .empty {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  min-height: 100px;
+  padding: 6px;
+}
+
+.empty {
+  background-color: transparent;
+  border: none;
 }
 
 /* Dates */
@@ -92,7 +104,7 @@ h1 {
   border-radius: 10px;
 }
 
-/* event name */
+/* Events */
 .event {
   margin-top: 6px;
   padding: 4px 6px;
@@ -114,7 +126,6 @@ h1 {
   background-color: #b4ffcf;
 }
 
-/* footer */
 footer {
   text-align: center;
   padding: 20px;
