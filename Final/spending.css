@@ -1,0 +1,181 @@
+/* ===============================
+   Fonts
+   =============================== */
+
+/* instrument-sans-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/instrument-sans-v4-latin-regular.woff2') format('woff2');
+}
+
+/* aleo-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/aleo-v16-latin-regular.woff2') format('woff2');
+}
+
+/* ===============================
+   Global Styles
+   =============================== */
+
+body {
+  font-family: 'Aleo', serif;
+  background: url('images/background.jpg');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* ===============================
+   Headings
+   =============================== */
+
+h1, h2 {
+  font-family: 'Instrument Sans', sans-serif;
+  margin: 0.5em 0;
+}
+
+h1 {
+  font-size: 2.4em;
+  text-align: center;
+  color: #6a8b91;
+}
+
+h2 {
+  font-size: 1.3em;
+  color: #333;
+}
+
+/* ===============================
+   Navigation
+   =============================== */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 2.5em;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-family: 'Instrument Sans', sans-serif;
+  color: #6a8b91;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  font-family: 'Instrument Sans', sans-serif;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9em;
+}
+
+/* ===============================
+   Page Layout
+   =============================== */
+
+main {
+  padding: 2.5em 1.5em;
+}
+
+/* ===============================
+   Summary Section
+   =============================== */
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.card {
+  background-color: rgba(255,255,255,0.95);
+  border-radius: 10px;
+  padding: 1.5em;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+.amount {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-top: 0.5em;
+  color: #ff6f61;
+}
+
+/* ===============================
+   Category Breakdown
+   =============================== */
+
+.categories {
+  max-width: 600px;
+  margin: 0 auto 3em auto;
+  background-color: rgba(255,255,255,0.95);
+  border-radius: 10px;
+  padding: 1.5em;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+.category {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75em 0;
+  border-bottom: 1px solid #eee;
+}
+
+.category:last-child {
+  border-bottom: none;
+}
+
+/* ===============================
+   Recent Spending
+   =============================== */
+
+.recent {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.95);
+  border-radius: 10px;
+  padding: 1.5em;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75em 0;
+  border-bottom: 1px solid #eee;
+}
+
+.transaction:last-child {
+  border-bottom: none;
+}
+
+/* ===============================
+   Footer (Optional)
+   =============================== */
+
+footer {
+  text-align: center;
+  padding: 1.5em;
+  background-color: #6a8b91;
+  color: white;
+  margin-top: 3em;
+}
