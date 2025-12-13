@@ -1,13 +1,26 @@
-* {
-  box-sizing: border-box;
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/open-sans-v44-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/poppins-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans' , sans-serif;
   background-color: #fafafa;
-  margin: 0;
+  color: #000000;
 }
-
 /* Navigation */
 .navbar {
   display: flex;
@@ -57,7 +70,7 @@ h1 {
   text-align: center;
   font-weight: bold;
   padding: 10px;
-  background-color: #f3f4f6;
+  background-color: #7d8699;
 }
 
 .day, .empty {
@@ -84,18 +97,17 @@ h1 {
   padding: 4px 6px;
   font-size: 0.75rem;
   border-radius: 6px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
-/* Event Types */
 .concert {
-  background-color: #ec4899;
+  background-color: #ffb7db;
 }
 
 .comeback {
-  background-color: #8b5cf6;
+  background-color: #d3c1ff;
 }
 
 .merch {
-  background-color: #22c55e;
+  background-color: #b4ffcf;
 }
