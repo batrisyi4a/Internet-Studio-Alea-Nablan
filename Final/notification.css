@@ -19,10 +19,12 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #fafafa;
   color: #000000;
   margin: 0;
+  line-height: 1.5;
+  background: url('images/backgroundimage.jpg');
 }
+
 
 .navbar {
   display: flex;

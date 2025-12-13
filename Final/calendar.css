@@ -17,10 +17,13 @@
 }
 
 body {
-  font-family: 'Open Sans' , sans-serif;
-  background-color: #fafafa;
+  font-family: 'Open Sans', sans-serif;
   color: #000000;
+  margin: 0;
+  line-height: 1.5;
+  background: url('images/backgroundimage.jpg');
 }
+
 /* Navigation */
 .navbar {
   display: flex;
