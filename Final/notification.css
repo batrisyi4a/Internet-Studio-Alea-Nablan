@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.notifications {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.notification {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.notification h3 {
+  margin: 0 0 5px;
+  font-size: 1rem;
+}
+
+.notification p {
+  margin: 0 0 10px;
+  color: #4b5563;
+  font-size: 0.9rem;
+}
+
+.time {
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+/* Unread notifications */
+.unread {
+  border-left: 5px solid #3b82f6;
+  background-color: #eff6ff;
+}

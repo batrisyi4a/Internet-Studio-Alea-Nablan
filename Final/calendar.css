@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background-color: #111827;
+}
+
+.logo {
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Page */
+main {
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Calendar Grid */
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 8px;
+}
+
+.day-name {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #f3f4f6;
+}
+
+.day, .empty {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  min-height: 100px;
+  padding: 6px;
+}
+
+.empty {
+  background-color: transparent;
+  border: none;
+}
+
+/* Dates */
+.date {
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+/* Events */
+.event {
+  margin-top: 6px;
+  padding: 4px 6px;
+  font-size: 0.75rem;
+  border-radius: 6px;
+  color: white;
+}
+
+/* Event Types */
+.concert {
+  background-color: #ec4899;
+}
+
+.comeback {
+  background-color: #8b5cf6;
+}
+
+.merch {
+  background-color: #22c55e;
+}
