@@ -1,11 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/open-sans-v44-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/poppins-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans' , sans-serif;
   background-color: #fafafa;
   color: #111827;
 }
@@ -30,7 +42,8 @@ body {
 }
 
 .nav-links a {
-  color: #f9fafb;
+  font-family: 'Poppins', sans-serif; 
+  color: #000000;
   text-decoration: none;
   font-size: 0.9rem;
 }
@@ -43,7 +56,7 @@ body {
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(135deg, #ec4899, #8b5cf6);
+  background: url('https://www.eyeonasia.gov.sg/images/asean-countries/Malaysia%20snapshot%20cover%20iso.jpg') center/cover no-repeat;
   color: white;
 }
 
