@@ -8,27 +8,30 @@ body {
   margin: 0;
 }
 
-/* Navbar */
+/* Navigation */
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 15px 40px;
-  background-color: #111827;
+  background-color: #ffffff;
 }
 
 .logo {
-  color: white;
+  color: #6a8b91;
 }
 
 .nav-links {
-  display: flex;
   list-style: none;
+  display: flex;
   gap: 20px;
 }
 
 .nav-links a {
-  color: white;
+  font-family: 'Poppins', sans-serif; 
+  color: #000000;
   text-decoration: none;
+  font-size: 0.9rem;
 }
 
 /* Page */
