@@ -56,8 +56,8 @@ body {
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: url('https://www.eyeonasia.gov.sg/images/asean-countries/Malaysia%20snapshot%20cover%20iso.jpg') center/cover no-repeat;
-  color: white;
+  background: url('images/background.jpg') center/cover no-repeat;
+  color: rgb(0, 0, 0);
 }
 
 .hero h1 {
