@@ -56,7 +56,9 @@ body {
 
 
 main {
+  display: grid;
   padding: 40px;
+  place-items: center;
 }
 
 h1 {
