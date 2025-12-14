@@ -66,10 +66,12 @@ h1 {
 
 .summary {
   display: grid;
+  grid-template-columns: repeat(3, 250px); 
   gap: 20px;
   justify-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 40px; 
 }
+
 
 .card {
   background-color: #ffffff;
@@ -102,7 +104,6 @@ h1 {
   display: flex;
   justify-content: space-between;
   padding: 12px 0;
-  border-bottom: 1px solid #eee;
 }
 
 
@@ -120,7 +121,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   padding: 12px 0;
-  border-bottom: 1px solid #eee;
+
 }
 
 
