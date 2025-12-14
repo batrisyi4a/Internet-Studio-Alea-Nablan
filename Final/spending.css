@@ -57,7 +57,7 @@ body {
 
 main {
   display: grid;
-  padding: 40px;
+  /* padding: 40px; */
   place-items: center;
 }
 
@@ -96,7 +96,7 @@ h1 {
 
 /* category section */
 .categories {
-  max-width: 1000px;
+  width: 1000px;
   /* margin: 0 auto 40px auto; */
   background-color: #ffffff;
   /* border-radius: 10px;
