@@ -96,7 +96,7 @@ h1 {
 
 /* category section */
 .categories {
-  width: 1000px;
+  width: 600px;
   /* margin: 0 auto 40px auto; */
   background-color: #ffffff;
   border-radius: 10px;
@@ -114,8 +114,8 @@ h1 {
 
 /* recent spending section */
 .recent {
-  max-width: 600px;
-  margin: 0 auto;
+  width: 600px;
+  margin: 40px auto;
   background-color: #ffffff;
   border-radius: 10px;
   padding: 20px;
