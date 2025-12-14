@@ -68,9 +68,8 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 250px); 
   gap: 20px;
-  justify-items: center;
+  place-items: center;
   margin-bottom: 40px; 
-  margin: auto;
 }
 
 
